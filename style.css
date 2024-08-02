@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left, red, #313131);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.card {
+    width: 400px;
+    background: linear-gradient(#222, #444);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px white;
+    text-align: center;
+
+
+}
+
+.heading, .counter-machine {
+    margin: 0;
+}
+
+.counter {
+    background-color: #333;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 2px solid transparent;
+    transition: border-color 0.5s ;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-counter {
+    background-color: rgb(135, 144, 222);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    /* color: #fff; */
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.button-counter:hover {
+    background-color: aqua;
+    /* padding: 10px 14px;
+    font-size: 1.5rem; */
+}
+
+.negative {
+    border-color: red;
+
+}
+
+.positive {
+    border-color: green;
+}
